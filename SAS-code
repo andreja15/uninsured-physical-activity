@@ -1,4 +1,4 @@
-1.	"C:\Users\Andreja\Downloads\Project 1.sas"
+
 data project1;
     input state $ state_code region $ phinact unins obesity prevhosp stdrate mammscrn;
     datalines;

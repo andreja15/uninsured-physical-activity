@@ -1,0 +1,185 @@
+1.	"C:\Users\Andreja\Downloads\Project 1.sas"
+data project1;
+    input state $ state_code region $ phinact unins obesity prevhosp stdrate mammscrn;
+    datalines;
+    AL 1 S 0.3351852382 0.1755294118 0.3505150841 92.117647059 550.61745594 0.6273676471
+    AK 2 W 0.241208283 0.2695380554 0.2999429044 60.533333333 950.4307247 0.5722777778
+    AZ 4 W 0.2348917847 0.201375 0.2758928375 62.375 334.81827928 0.59125
+    AR 5 S 0.3267906799 0.2173289474 0.3360155177 90.092105263 522.37050833 0.5833421053
+    CA 6 W 0.1761391777 0.1893728814 0.2420140468 51.603448276 291.70391421 0.6392068966
+    CO 8 W 0.1857568414 0.2078153846 0.2067724842 54.454545455 161.79573869 0.6280327869
+    CT 9 NE 0.2225769311 0.0976666667 0.2428307969 60.333333333 274.51127128 0.719
+    DE 10 NE 0.2521595733 0.1195 0.2977095738 58 516.48530383 0.708
+    FL 12 S 0.2677093971 0.2363823529 0.2971923129 75.205882353 393.28009951 0.6640441176
+    GA 13 S 0.2834105427 0.2245 0.3114672286 82.568627451 436.04909113 0.6183312102
+    HI 15 W 0.1900153858 0.0988 0.2292942428 26.6 294.02242005 0.645
+    ID 16 W 0.2260033175 0.2310222222 0.2762124086 48.804878049 192.53419795 0.574547619
+    IL 17 MW 0.2781730915 0.1329708738 0.2984265807 85.097087379 282.24435308 0.6501747573
+    IN 18 MW 0.2931409398 0.1686666667 0.3169427482 80.548387097 202.93025469 0.6243655914
+    IA 19 MW 0.2716903147 0.11587 0.3051395932 62.34 223.78552906 0.67836
+    KS 20 MW 0.2779844833 0.1793773585 0.3234882637 86.31372549 194.50102868 0.6441165049
+    KY 21 S 0.3306649826 0.1884958678 0.3348943225 124.74166667 273.08249778 0.57855
+    LA 22 S 0.3221409045 0.2104 0.3552133512 112.84615385 548.88111485 0.6033076923
+    ME 23 NE 0.2355851598 0.1297058824 0.2875707241 61.941176471 175.77505856 0.7220588235
+    MD 24 NE 0.2557074341 0.12432 0.2971746576 69.2 390.53403804 0.68564
+    MA 25 NE 0.2156006817 0.056 0.234198373 67.4 303.85657344 0.7574666667
+    MI 26 MW 0.2449835177 0.1549642857 0.3204950369 65.988095238 230.67337371 0.6871071429
+    MN 27 MW 0.2302895349 0.1106704545 0.2841486277 55.193181818 148.66288026 0.722091954
+    MS 28 S 0.3444317287 0.218686747 0.3668526172 99.536585366 758.07310835 0.5598433735
+    MO 29 MW 0.3026311883 0.1752586207 0.3199999582 83.465517241 232.423067 0.5968793103
+    MT 30 W 0.2717096268 0.2433684211 0.2617665974 64.863636364 230.06310873 0.63768
+    NE 31 MW 0.2966433346 0.163393617 0.3055866987 69.278481013 80.290953457 0.6325
+    NV 32 W 0.2337700479 0.2468888889 0.2710146179 65 176.30149758 0.5415
+    NH 33 NE 0.221909364 0.1429090909 0.2702366722 56.272727273 178.38320688 0.7333636364
+    NJ 34 NE 0.2505862115 0.1420454545 0.2522500948 71.681818182 282.50645793 0.6272272727
+    NM 35 W 0.2373354671 0.2351176471 0.2534228836 60.121212121 454.67678247 0.5472727273
+    NY 36 NE 0.2460268509 0.1253968254 0.2735037563 71.873015873 297.75124467 0.6871428571
+    NC 37 S 0.2786496446 0.2029009901 0.3035115798 68.930693069 375.71845054 0.6846534653
+    ND 38 MW 0.3032850249 0.139037037 0.3130256544 67.833333333 244.85969914 0.6901764706
+    OH 39 MW 0.28896753 0.1467640449 0.3127660226 84.764044944 237.21214597 0.6190337079
+    OK 40 S 0.3375348129 0.2340897436 0.3337145866 100.52564103 271.93328207 0.5512077922
+    OR 41 W 0.1945508308 0.2121621622 0.2723842673 46.852941176 261.25448963 0.6375945946
+    PA 42 NE 0.2689899055 0.1267941176 0.302598021 75.058823529 207.51452066 0.6759117647
+    RI 44 NE 0.2327001622 0.1195 0.2432271073 63.666666667 226.44087573 0.7305
+    SC 45 S 0.2936721424 0.2080851064 0.3458402293 70.255319149 639.48500895 0.6734255319
+    SD 46 MW 0.297790674 0.1677313433 0.3235207242 74.6 346.48732683 0.680877193
+    TN 47 S 0.3408585449 0.1701458333 0.3256512947 104.38541667 279.93739058 0.6036979167
+    TX 48 S 0.2818823374 0.2743960784 0.2981031327 89.349344978 315.41726798 0.5656861925
+    UT 49 W 0.2100925165 0.185 0.2576359971 48.96 152.51260766 0.5777407407
+    VT 50 NE 0.2054206375 0.1033333333 0.2582960127 54.466666667 184.28016019 0.7234666667
+    VA 51 S 0.2624302689 0.1662814815 0.3019013455 67.697674419 370.9289234 0.6564384615
+    WA 53 W 0.2106904403 0.182425 0.2953621183 50.15 249.20660236 0.6674
+    WV 54 S 0.3501874285 0.1830178571 0.3368936606 103.51785714 146.27633909 0.5960892857
+    WI 55 MW 0.2302861174 0.1146438356 0.2967234602 57.916666667 238.34358877 0.7133972603
+    WY 56 W 0.2468749778 0.1828333333 0.2545642225 60 245.78724958 0.5701666667
+    ;
+run;
+
+proc reg data=project1;
+    model phinact = unins;
+    output out=reg_output p=fitted_line;
+run;
+
+
+proc sgplot data=reg_output;
+    scatter x=unins y=phinact;
+    series x=unins y=fitted_line / lineattrs=(color=red thickness=2);
+    title 'Scatterplot of Physical Inactivity vs. Uninsured with Fitted Line';
+run;
+
+proc reg data=project1;
+    model phinact = unins;
+    output out=diagnostics r=residuals student=student_resid cookd=cook_distance;
+run;
+
+proc univariate data=diagnostics;
+    var student_resid;
+    histogram / normal;
+run;
+
+proc sgplot data=diagnostics;
+    scatter x=unins y=residuals;
+    title 'Residual Plot for Physical Inactivity vs. Uninsured';
+run;
+
+
+proc sql;
+    create table influential_points as
+    select *
+    from diagnostics
+    where cook_distance > 4 / (select count(*) from diagnostics);
+quit;
+
+proc print data=influential_points;
+    title 'Regional Analysis';
+run;
+
+
+proc sort data=project1;
+    by region;
+run;
+
+proc means data=project1;
+    class region;
+    var phinact unins;
+run;
+
+proc glm data=project1;
+    class region;
+    model phinact unins = region;
+    means region / tukey;
+run;
+
+
+proc sgplot data=project1;
+    vbox phinact / category=region;
+    title 'Boxplot of Physical Inactivity by Region';
+run;
+
+proc sgplot data=project1;
+    vbox unins / category=region;
+    title 'Boxplot of Uninsured Proportion by Region';
+run;
+
+
+proc glm data=project1;
+    class region;
+    model phinact = unins|region / solution;
+run;
+
+
+proc reg data=project1;
+    by region;
+    model phinact = unins;
+run;
+
+
+proc glmselect data=project1;
+    class region;
+    model phinact = unins obesity prevhosp stdrate mammscrn / selection=stepwise(select=sl sle=0.05);
+run;
+
+proc glm data=project1;
+    class region;
+    model phinact = unins|region obesity prevhosp stdrate mammscrn / solution;
+run;
+
+data transformed;
+    set project1;
+    log_phinact = log(phinact);
+run;
+
+proc reg data=transformed;
+    model log_phinact = unins;
+    output out=reg_output_transformed p=fitted_line;
+run;
+
+data transformed;
+    set project1;
+    sqrt_phinact = sqrt(phinact);
+run;
+
+proc reg data=transformed;
+    model sqrt_phinact = unins;
+    output out=reg_output_transformed p=fitted_line;
+run;
+
+proc glm data=project1;
+    class region;
+    model phinact = unins region unins*region obesity prevhosp / solution;
+run;
+
+proc glm data=project1;
+    class region;
+    model phinact = unins region unins*region obesity prevhosp stdrate mammscrn / solution;
+    output out=predicted_values p=pred_phinact;
+run;
+
+proc sgplot data=predicted_values;
+    reg x=unins y=pred_phinact / group=region lineattrs=(thickness=2);
+    scatter x=unins y=phinact / group=region markerattrs=(symbol=circlefilled);
+    keylegend / position=right location=inside across=1;
+    xaxis label="Uninsured Rate (unins)" grid;
+    yaxis label="Predicted Physical Inactivity (phinact)" grid;
+    title "ANCOVA Plot of Predicted Physical Inactivity vs. Uninsured Rate by Region (Full Model)";
+run;
